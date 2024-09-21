@@ -1,20 +1,21 @@
-Hackintosh Project Overview
+#Hackintosh Project Overview
 This project aims to create a Hackintosh using Ryzen APUs, specifically:
 
-Supported Processors:
+##Supported Processors:
 
 Ryzen 5600G
 Ryzen 2400G
 Ryzen 3400G
-Supported Motherboards:
+
+##Supported Motherboards:
 
 MSI, Gigabyte, or Asus
 A320M, A440M, A520M, B450M
-Graphics Support:
+##Graphics Support:
 
 Utilize integrated graphics from the Ryzen APUs.
 Use Lilu and WhateverGreen for better graphics support.
-Networking:
+## Networking:
 
 Support for Ethernet and specific Wi-Fi modules.
 Use of the Wireless USB Adapter for compatibility.
@@ -26,7 +27,7 @@ EFI/CLOVER or EFI/OC: Depending on whether you're using Clover or OpenCore.
 
 Drivers: Essential drivers for booting, like HFSPlus.efi, OpenRuntime.efi, etc.
 
-Kexts:
+##Kexts:
 
 Lilu.kext
 WhateverGreen.kext
@@ -34,7 +35,7 @@ VirtualSMC.kext
 Any additional kexts specific to your hardware (e.g., Ethernet or USB support).
 Config.plist: Ensure your config file is tailored to your specific hardware, including:
 
-CPU settings
+##CPU settings
 Boot arguments
 Device properties for graphics and networking.
 Disclaimer
